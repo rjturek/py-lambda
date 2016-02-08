@@ -15,7 +15,7 @@ deploy:
   secret_access_key:
     secure: IROT3DvfZRnqq0OYy9juSkDQ9kwq4VE/7XePVZ0DlckdyFyovnRBydyhGXqNASSr08Lp8ce8MY16k3+EwR8F1JLtssXJhDtRlikeKfXtAit1sPRG3A/sgwKg0fzhgEyLuqBpwzhlUkjjSGffflqhVCV+KFGXzl913u9XBUzV2HNvJIAweMnvetJPItMSe/pJCo53e2vRFd1lpVl9W6pEru8Zbi/s6Eh1PqL29IhR2x28f59ypeeU5BifkHyXrDxBXcp1PZxAL/0b10zyI0NreBuw/KRfwkZj7jGVUw85mAZFcGPPaJkur6hI7QFNrZa3mAJMXok6ZiljoccHFo+WrUjQ9Jf/LD5qCwS7kmv1RaWu9zy3lyTSZxeaPtM4HegVCiXElQ0JqfZWMWzGu+XunO2s+wg79y4kdoFOE9/lNzXpy6A8ATTTNOb7Yh3Ku7jR7ciHfm8T0r/4wgWModytalwdsjfrCHHtFXPskdhBCAgIb9mBSA1xC5znvUIVqn25Hxvd/xBVl+SWd2Kyjki4SFnGfDny+rF859KTg9FRKqA++CwJtLBFwtCRsoCCW/NLionxtB8F2b7oHAPmwxuas3tZZavmwN7idd9A96ZeAQF0sJWXtvtGmrm2kwJp9b5f9W2v362IzHi5qQqSD0sRVZeT7qrcvlNd12tLPtoCtZc=
   bucket: rjt-lambdas
-  local_dir: output
+  local_dir: output/
   acl: public_read
   on:
     repo: rjturek/py-lambda
