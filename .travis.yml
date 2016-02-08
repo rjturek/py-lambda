@@ -10,6 +10,7 @@ script:
 - ls -la
 - ls -la output
 deploy:
+  skip_cleanup: true
   provider: s3
   access_key_id: AKIAJGNOJHOF7WYH2MLQ
   secret_access_key:
