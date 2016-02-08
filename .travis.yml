@@ -1,10 +1,17 @@
 language: python
 python:
   - "2.7"
-  - "3.5"
+# - "3.5"
+
 # command to install dependencies
 install: "pip install -r requirements.txt"
-# command to run tests
+
+# command to build zip
 #script: nosetests
-script: zip lambda_hello.zip lambda_hello.py
+script:
+  - pwd
+  - ls -la
+  - zip lambda_hello.zip lambda_hello.py
+  - ls -la
+
 
